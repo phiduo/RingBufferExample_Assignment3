@@ -19,7 +19,7 @@ public class RingBufferTest {
 	}
 
 	@Test
-	void ifCapacityOverOne_RingbufferInstantiated(){
+	void ifCapacityOverOne_ringbufferInstantiated(){
 		assertNotNull(ringBuffer);
 	}
 
