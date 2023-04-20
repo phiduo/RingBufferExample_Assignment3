@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\phili\AppData\Local\Temp\surefire14268388844193928300\surefirebooter-20230419231440769_3.jar C:\Users\phili\AppData\Local\Temp\surefire14268388844193928300 2023-04-19T23-14-40_543-jvmRun1 surefire-20230419231440769_1tmp surefire_0-20230419231440769_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\phili\AppData\Local\Temp\surefire7812694780741163571\surefirebooter-20230420140321567_3.jar C:\Users\phili\AppData\Local\Temp\surefire7812694780741163571 2023-04-20T14-03-21_316-jvmRun1 surefire-20230420140321567_1tmp surefire_0-20230420140321567_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Documents\KV Software Testing\UE 03\target\test-classes;D:\Documents\KV Software Testing\UE 03\target\classes;C:\Users\phili\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\phili\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\phili\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\phili\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\phili\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\phili\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\phili\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\phili\AppData\Local\Temp\surefire14268388844193928300\surefirebooter-20230419231440769_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\phili\AppData\Local\Temp\surefire7812694780741163571\surefirebooter-20230420140321567_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.1+9-24"/>
@@ -58,15 +58,15 @@
     <property name="java.class.version" value="60.0"/>
   </properties>
   <testcase name="ifEmptyRingBufferDequeued_dequeueThrowsException" classname="at.jku.swtesting.RingBufferTest" time="0.001"/>
-  <testcase name="ifRingBufferIsIterated_iteratorReturnsCorrectOrderOfElements" classname="at.jku.swtesting.RingBufferTest" time="0.002"/>
+  <testcase name="ifRingBufferIsIterated_iteratorReturnsCorrectOrderOfElements" classname="at.jku.swtesting.RingBufferTest" time="0.003"/>
   <testcase name="ifItemsEnqueued_sizeEqualsNoOfEnqueuedItems" classname="at.jku.swtesting.RingBufferTest" time="0.001"/>
-  <testcase name="ifItemEnqueued_peekReturnsFirstItem" classname="at.jku.swtesting.RingBufferTest" time="0.001"/>
-  <testcase name="ifRingBufferOverflows_nextItemAfterFormerFirstIsReturned" classname="at.jku.swtesting.RingBufferTest" time="0"/>
-  <testcase name="ifItemsEnqueued_peekReturnsCorrectItems" classname="at.jku.swtesting.RingBufferTest" time="0"/>
-  <testcase name="ifRingBufferOverFlowsAndIsIterated_iteratorReturnsCorrectOrderOfElements" classname="at.jku.swtesting.RingBufferTest" time="0"/>
+  <testcase name="ifItemEnqueued_peekReturnsFirstItem" classname="at.jku.swtesting.RingBufferTest" time="0.002"/>
+  <testcase name="ifRingBufferOverflows_nextItemAfterFormerFirstIsReturned" classname="at.jku.swtesting.RingBufferTest" time="0.001"/>
+  <testcase name="ifItemsEnqueued_peekReturnsCorrectItems" classname="at.jku.swtesting.RingBufferTest" time="0.001"/>
+  <testcase name="ifRingBufferOverFlowsAndIsIterated_iteratorReturnsCorrectOrderOfElements" classname="at.jku.swtesting.RingBufferTest" time="0.001"/>
   <testcase name="ifEmptyRingBufferPeeked_peekThrowsException" classname="at.jku.swtesting.RingBufferTest" time="0.001"/>
-  <testcase name="ifItemDequeued_dequeueReturnsFirstItem" classname="at.jku.swtesting.RingBufferTest" time="0.001"/>
+  <testcase name="ifItemDequeued_dequeueReturnsFirstItem" classname="at.jku.swtesting.RingBufferTest" time="0"/>
   <testcase name="ifItemsEnqueued_sizeEqualsCapacity" classname="at.jku.swtesting.RingBufferTest" time="0"/>
   <testcase name="ifCapacityOverOne_ringbufferInstantiated" classname="at.jku.swtesting.RingBufferTest" time="0"/>
-  <testcase name="ifCapacityUnderOne_constructorThrowsException" classname="at.jku.swtesting.RingBufferTest" time="0.001"/>
+  <testcase name="ifCapacityUnderOne_constructorThrowsException" classname="at.jku.swtesting.RingBufferTest" time="0"/>
 </testsuite>

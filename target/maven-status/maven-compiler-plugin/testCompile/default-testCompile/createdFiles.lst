@@ -1,2 +1,3 @@
 at\jku\swtesting\RingBufferTest.class
+at\jku\swtesting\RingBufferMutationTest.class
 at\jku\swtesting\RingBufferCoverageTest.class
